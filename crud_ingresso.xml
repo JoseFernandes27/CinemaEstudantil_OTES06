@@ -8,6 +8,75 @@
     android:background="#55BBCC"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@android:drawable/ic_menu_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@android:drawable/ic_menu_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Buscar"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <Spinner
+        android:id="@+id/spinnerMatricula"
+        android:layout_width="210dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <Spinner
+        android:id="@+id/spinnerSessao"
+        android:layout_width="210dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combo"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="479dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,13 +87,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.022" />
-
-    <FrameLayout
-        android:layout_width="409dp"
-        android:layout_height="694dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="36dp">
-
-    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

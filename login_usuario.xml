@@ -18,25 +18,37 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.022" />
 
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="E-mail"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Senha"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="385dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Olá!"
+        android:text="Bem-vinda(o)!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.301" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Logar"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="293dp" />
+        app:layout_constraintVertical_bias="0.335" />
 
     <Button
         android:id="@+id/button2"
@@ -44,6 +56,6 @@
         android:layout_height="wrap_content"
         android:text="Cadastre-se"
         tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="381dp" />
+        tools:layout_editor_absoluteY="480dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
