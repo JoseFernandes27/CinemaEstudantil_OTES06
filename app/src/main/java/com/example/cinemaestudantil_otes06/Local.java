@@ -38,6 +38,12 @@ public class Local {
 
     @Override
     public String toString() {
-        return this.bloco + " " + this.sala;
+        return "Bloco: " + bloco + 
+               " | Sala: " + sala;
+    }
+
+    public String exibirInfoLocal() {
+        return "Bloco: " + bloco + 
+               " | Sala: " + sala;
     }
 }
