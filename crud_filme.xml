@@ -9,7 +9,7 @@
     tools:context=".Filme">
 
     <Button
-        android:id="@+id/filme_delete"
+        android:id="@+id/filme_btnExcluir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:icon="@android:drawable/ic_menu_delete"
@@ -29,7 +29,7 @@
         tools:layout_editor_absoluteY="343dp" />
 
     <Button
-        android:id="@+id/filme_adicionar"
+        android:id="@+id/filme_btnAdicionar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:icon="@android:drawable/ic_menu_add"
@@ -59,7 +59,7 @@
         tools:layout_editor_absoluteY="414dp" />
 
     <Button
-        android:id="@+id/filme_cancelar"
+        android:id="@+id/filme_btnCancelar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cancelar"
@@ -67,7 +67,7 @@
         tools:layout_editor_absoluteY="627dp" />
 
     <Button
-        android:id="@+id/filme_salvar"
+        android:id="@+id/filme_btnSalvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Salvar"
