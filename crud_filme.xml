@@ -2,14 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/filme_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#55BBCC"
-    tools:context=".MainActivity">
+    tools:context=".Filme">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/filme_delete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:icon="@android:drawable/ic_menu_delete"
@@ -19,17 +19,17 @@
         tools:layout_editor_absoluteY="195dp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress3"
+        android:id="@+id/filme_editGenero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textEmailAddress"
+        android:inputType="textPersonName"
         android:text="Gênero"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="343dp" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/filme_adicionar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:icon="@android:drawable/ic_menu_add"
@@ -39,7 +39,7 @@
         tools:layout_editor_absoluteY="195dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/filme_editTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -49,7 +49,7 @@
         tools:layout_editor_absoluteY="268dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName11"
+        android:id="@+id/filme_editDuracao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -59,7 +59,7 @@
         tools:layout_editor_absoluteY="414dp" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/filme_cancelar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cancelar"
@@ -67,7 +67,7 @@
         tools:layout_editor_absoluteY="627dp" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/filme_salvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Salvar"
@@ -76,7 +76,7 @@
         tools:layout_editor_absoluteY="558dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/filme_buscar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -97,7 +97,7 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/filme_editClassificacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
